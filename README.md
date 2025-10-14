@@ -66,23 +66,6 @@ It supports **Admin** and **Applicant** roles, enabling job posting, resume uplo
 `https://api.apilayer.com/resume_parser/upload`
 
 
-Access Swagger UI
-
-Visit:
-👉 http://localhost:9090/swagger-ui/index.html
-
-📦 Example Signup JSON
-
-{
-  "name": "Manjit Patel",
-  "email": "manjit@gmail.com",
-  "password": "mypassword123",
-  "userType": "APPLICANT",
-  "profileHeadline": "Passionate Java Developer Fresher",
-  "address": "Odisha, India"
-}
-
-
 **Headers:**
 
 **Response Example:**
