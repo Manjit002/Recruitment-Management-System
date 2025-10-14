@@ -65,19 +65,6 @@ It supports **Admin** and **Applicant** roles, enabling job posting, resume uplo
 **API Endpoint:**  
 `https://api.apilayer.com/resume_parser/upload`
 
-**Headers:**
-
-**Response Example:**
-```json
-{
-  "name": "Elon Musk",
-  "email": "elonmusk@teslamotors.com",
-  "phone": "65068100",
-  "skills": ["Entrepreneurship", "Physics", "Maths"],
-  "education": [{"name": "Wharton School of the University of Pennsylvania"}],
-  "experience": [{"name": "SpaceX"}, {"name": "Tesla"}]
-}
-
 
 Access Swagger UI
 
@@ -94,4 +81,19 @@ Visit:
   "profileHeadline": "Passionate Java Developer Fresher",
   "address": "Odisha, India"
 }
+
+
+**Headers:**
+
+**Response Example:**
+```json
+{
+  "name": "Elon Musk",
+  "email": "elonmusk@teslamotors.com",
+  "phone": "65068100",
+  "skills": ["Entrepreneurship", "Physics", "Maths"],
+  "education": [{"name": "Wharton School of the University of Pennsylvania"}],
+  "experience": [{"name": "SpaceX"}, {"name": "Tesla"}]
+}
+
 
